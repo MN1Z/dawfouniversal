@@ -2,7 +2,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzH
 
 local Window = redzlib:MakeWindow({
   Title = "Dawfo Universal",
-  SubTitle = "< V1.3 >  A whole script which took 48 tries :sad:",
+  SubTitle = "< V1.4 >  A whole script which took 48 tries :sad:",
   SaveFolder = "Dawfo Config"
 })
 local Tab1 = Window:MakeTab({"Player", "Player Hacks"})
@@ -88,6 +88,9 @@ end})
 
 Tab2:AddButton({"Horrific Housing", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Horrific-Housing-Hosuing-hub-16738"))()
+end})
+Tab2:AddButton({"Lucky block battlegrounds", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/LUCKY-BLOCKS-Battlegrounds-Zephyr-L4cky-BIocks-Battlegr0unds-19572"))()
 end})
 
 Tab2:AddButton({"Pass The Bomb", function()
