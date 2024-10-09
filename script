@@ -1,0 +1,99 @@
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
+
+local Window = redzlib:MakeWindow({
+  Title = "Dawfo Universal",
+  SubTitle = "A whole script which took 48 tries :sad:",
+  SaveFolder = "Dawfo Config"
+})
+local Tab1 = Window:MakeTab({"Player", "Player Hacks"})
+
+Tab1:AddButton({"Shiftlock", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/CjNsnSDy'))()
+end})
+
+Tab1:AddButton({"Infinite Yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end})
+
+Tab1:AddButton({"Hitbox Expander", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Hitbox-expander-script-19736"))()
+end})
+
+Tab1:AddButton({"Chat Bypass", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Chat-bypass-19866"))()
+end})
+
+Tab1:AddButton({"Shaders", function()
+loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
+end})
+
+Tab1:AddSlider({
+  Name = "Walkspeed",
+  Min = 1,
+  Max = 100,
+  Increase = 1,
+  Default = 16,
+  Callback = function(Value)
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+  end
+})
+
+Tab1:AddSlider({
+  Name = "JumpPower",
+  Min = 1,
+  Max = 100,
+  Increase = 1,
+  Default = 16,
+  Callback = function(Value)
+  game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+  end
+})
+
+Tab1:AddSlider({
+  Name = "FOV",
+  Min = 70,
+  Max = 120,
+  Increase = 1,
+  Default = 70,
+  Callback = function(Value)
+  game.Workspace.CurrentCamera.FieldOfView = Value
+  end
+})
+
+local Tab2 = Window:MakeTab({"Games", "Game Hacks"})
+
+Tab2:AddButton({"The Survival Game", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qxkya/aura.solutions/main/Free"))()
+end})
+
+Tab2:AddButton({"Tower Of Hell", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scowscripts/scowsscripts/main/TowerOfHacks/Script", true))()
+end})
+
+Tab2:AddButton({"Arsenal (1)", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter', true))()
+end})
+
+Tab2:AddButton({"Arsenal (2)", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal'))()
+end})
+
+Tab2:AddButton({"Da Hood", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/Sub%20to%20Ryzzchips%20for%20more%20New%20aimlock%20script!'))()
+end})
+
+Tab2:AddButton({"Jailbreak", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/paid2'))()
+end})
+
+Tab2:AddButton({"Baddies ( Money Farm )", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Baddiesandx1F525-Money-F1rm-15767"))()
+end})
+
+Tab2:AddButton({"empty", function()
+
+end})
+
+Tab2:AddButton({"empty", function()
+
+end})
