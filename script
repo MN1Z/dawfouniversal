@@ -11,6 +11,14 @@ Tab1:AddButton({"Shiftlock", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/CjNsnSDy'))()
 end})
 
+Tab1:AddButton({"Reach Script", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/x10-steal-time-from-others-and-flex-your-sword-Reach-Script-5437"))()
+end})
+
+Tab1:AddButton({"Fly Script V3", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-script-v3-16742"))()
+end})
+
 Tab1:AddButton({"Infinite Yield", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end})
