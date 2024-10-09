@@ -86,6 +86,10 @@ Tab2:AddButton({"Arsenal (2)", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal'))()
 end})
 
+Tab2:AddButton({"Pass The Bomb", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Pass-the-Bomb!-Bomb-Script-Ocfi-Anti-Slippery-Menu-19489"))()
+end})
+
 Tab2:AddButton({"Da Hood", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/Sub%20to%20Ryzzchips%20for%20more%20New%20aimlock%20script!'))()
 end})
