@@ -2,7 +2,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzH
 
 local Window = redzlib:MakeWindow({
   Title = "Dawfo Universal",
-  SubTitle = "< V1.5 >  A whole script which took 49 tries :sad:",
+  SubTitle = "< V1.7 >  A whole script which took 49 tries :sad:",
   SaveFolder = "Dawfo Config"
 })
 local Tab1 = Window:MakeTab({"Player", "Player Hacks"})
@@ -129,8 +129,8 @@ Tab2:AddButton({"Da Hood", function()
 loadstring(game:HttpGet("https://cracklua.github.io/cracks/simp"))()
 end})
 
-Tab2:AddButton({"empty", function()
-
+Tab2:AddButton({"Rivals (OP)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
 end})
 
 Tab2:AddButton({"empty", function()
