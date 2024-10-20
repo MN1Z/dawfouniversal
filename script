@@ -113,6 +113,22 @@ Tab2:AddButton({"Baddies (2)", function()
 loadstring(game:HttpGet("https://cracklua.github.io/cracks/simp"))()
 end})
 
+Tab2:AddButton({"Flee The Facility", function()
+loadstring(game:HttpGet("https://cracklua.github.io/cracks/simp"))()
+end})
+
+Tab2:AddButton({"Da Hood", function()
+loadstring(game:HttpGet("https://cracklua.github.io/cracks/simp"))()
+end})
+
+Tab2:AddButton({"empty", function()
+
+end})
+
+Tab2:AddButton({"empty", function()
+
+end})
+
 Tab2:AddButton({"empty", function()
 
 end})
