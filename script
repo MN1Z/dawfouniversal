@@ -90,6 +90,10 @@ Tab2:AddButton({"Blade Ball", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/FluxusZ/refs/heads/main/Loader.lua"))()
 end})
 
+Tab2:AddButton({"Blade Ball (2)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Akirascripts/Lunar/refs/heads/main/LuanrOnTop"))()
+end})
+
 Tab2:AddButton({"Horrific Housing", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Horrific-Housing-Hosuing-hub-16738"))()
 end})
