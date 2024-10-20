@@ -2,7 +2,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzH
 
 local Window = redzlib:MakeWindow({
   Title = "Dawfo Universal",
-  SubTitle = "< V1.4 >  A whole script which took 48 tries :sad:",
+  SubTitle = "< V1.5 >  A whole script which took 49 tries :sad:",
   SaveFolder = "Dawfo Config"
 })
 local Tab1 = Window:MakeTab({"Player", "Player Hacks"})
@@ -109,8 +109,8 @@ Tab2:AddButton({"Baddies ( Money Farm )", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Baddiesandx1F525-Money-F1rm-15767"))()
 end})
 
-Tab2:AddButton({"empty", function()
-
+Tab2:AddButton({"Baddies (2)", function()
+loadstring(game:HttpGet("https://cracklua.github.io/cracks/simp"))()
 end})
 
 Tab2:AddButton({"empty", function()
