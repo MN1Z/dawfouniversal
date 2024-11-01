@@ -2,7 +2,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzH
 
 local Window = redzlib:MakeWindow({
   Title = "Dawfo Universal",
-  SubTitle = "< V1.7 >  A whole script which took 49 tries :sad:",
+  SubTitle = "< V1.9 >  🦧 @dawfo on discord. ",
   SaveFolder = "Dawfo Config"
 })
 local Tab1 = Window:MakeTab({"Player", "Player Hacks"})
@@ -27,18 +27,18 @@ Tab1:AddButton({"Hitbox Expander", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Hitbox-expander-script-19736"))()
 end})
 
-Tab1:AddButton({"Chat Bypass", function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Chat-bypass-19866"))()
-end})
-
 Tab1:AddButton({"Shaders", function()
 loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
+end})
+
+Tab1:AddButton({"Soon.", function()
+
 end})
 
 Tab1:AddSlider({
   Name = "Walkspeed",
   Min = 1,
-  Max = 100,
+  Max = 250,
   Increase = 1,
   Default = 16,
   Callback = function(Value)
@@ -49,9 +49,9 @@ Tab1:AddSlider({
 Tab1:AddSlider({
   Name = "JumpPower",
   Min = 1,
-  Max = 100,
+  Max = 250,
   Increase = 1,
-  Default = 16,
+  Default = 50,
   Callback = function(Value)
   game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
   end
@@ -60,7 +60,7 @@ Tab1:AddSlider({
 Tab1:AddSlider({
   Name = "FOV",
   Min = 70,
-  Max = 120,
+  Max = 150,
   Increase = 1,
   Default = 70,
   Callback = function(Value)
@@ -97,6 +97,11 @@ end})
 Tab2:AddButton({"Horrific Housing", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Horrific-Housing-Hosuing-hub-16738"))()
 end})
+
+Tab2:AddButton({"Hide Or Die", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Hide-or-Die!-inf-money-and-crates-21298"))()
+end})
+
 Tab2:AddButton({"Lucky block battlegrounds", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/LUCKY-BLOCKS-Battlegrounds-Zephyr-L4cky-BIocks-Battlegr0unds-19572"))()
 end})
@@ -133,8 +138,8 @@ Tab2:AddButton({"Rivals (OP)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
 end})
 
-Tab2:AddButton({"empty", function()
-
+Tab2:AddButton({"Merge For Diamonds!", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Merge-for-DIAMONDS!-infinite-gems-and-cash-19087"))()
 end})
 
 Tab2:AddButton({"empty", function()
