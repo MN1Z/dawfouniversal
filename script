@@ -2,7 +2,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzH
 
 local Window = redzlib:MakeWindow({
   Title = "Dawfo Universal",
-  SubTitle = "< V1.9 >  🦧 @dawfo on discord. ",
+  SubTitle = "< V2 >  🦧 @dawfo on discord. ",
   SaveFolder = "Dawfo Config"
 })
 local Tab1 = Window:MakeTab({"Player", "Player Hacks"})
@@ -60,7 +60,7 @@ Tab1:AddSlider({
 Tab1:AddSlider({
   Name = "FOV",
   Min = 70,
-  Max = 150,
+  Max = 120,
   Increase = 1,
   Default = 70,
   Callback = function(Value)
@@ -104,6 +104,14 @@ end})
 
 Tab2:AddButton({"Lucky block battlegrounds", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/LUCKY-BLOCKS-Battlegrounds-Zephyr-L4cky-BIocks-Battlegr0unds-19572"))()
+end})
+
+Tab2:AddButton({"Monkey Raft (Get Items) - 1", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/TIGER-SHARK-monkey-raft-Collect-Items-15424"))()
+end})
+
+Tab2:AddButton({"Monkey Raft (AutoCollect Bananas) - 2", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/TIGER-SHARK-monkey-raft-Auto-Collect-Golden-Bananas-15432"))()
 end})
 
 Tab2:AddButton({"Pass The Bomb", function()
