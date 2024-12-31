@@ -2,7 +2,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzH
 
 local Window = redzlib:MakeWindow({
   Title = "Dawfo Universal",
-  SubTitle = "< V2 >  🦧 @dawfo on discord. ",
+  SubTitle = "< V2.1 >  🦧 @dawfo on discord. ",
   SaveFolder = "Dawfo Config"
 })
 local Tab1 = Window:MakeTab({"Player", "Player Hacks"})
